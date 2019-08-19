@@ -59,7 +59,7 @@ i {
   background-color: green;
 }
 .length{
-	width:24rem;
+	width:20rem;
 }
 
   @media (min-width:768px) and (max-width:900px) {
