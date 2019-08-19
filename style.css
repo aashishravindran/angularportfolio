@@ -68,7 +68,7 @@ i {
 
 .heading {
   font-weight: bold;
-  font-size: 0.90rem;
+  font-size: 0.80rem !important;
 
 }
   .length {
@@ -95,7 +95,7 @@ i {
 }
 
 .text-primary{
-  font-size: 0.90rem !important;
+  font-size: 0.8rem !important;
 }
 
 }
