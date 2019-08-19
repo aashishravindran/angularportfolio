@@ -87,6 +87,10 @@ i {
 	font-weight: bold;
 }
 
+.text-primary{
+  font-size:0.60rem;
+}
+
 }
 
 .badge-primary {
