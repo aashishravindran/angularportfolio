@@ -59,10 +59,10 @@ i {
   background-color: green;
 }
 .length{
-	width:20rem;
+	width:23rem;
 }
 
-  @media (min-width:768px) and (max-width:900px) {
+  @media (min-width:768px) and (max-width:1080px) {
 
    .length {
     width: 15rem;
