@@ -78,10 +78,10 @@ app.controller("EducationCtrl", function($location, $scope, $http, $rootScope) {
 
 
 $scope.education=[{degree:'Master Of Science',in:'Computer Engineering',university:'Stony Brook University',duration:'Aug 2018 - Present'
-,courses:['Product Design Concept Development and Optimization','Mobile Sensing Systems','Cyber Physical Systems','Wireless Communication','Digital Image Processing','Computer Aided Design',
+,courses:['Mobile Sensing Systems','Cyber Physical Systems','Wireless Communication','Digital Image Processing','Computer Aided Design',
 'Topics in Electrical Sciences','System Spec and Modeling'],cgpa:'3.64/4.00'},
 
-{degree:'Bachelor of Engineering',in:'Computer Engineering',university:'Anna University',duration:'June 2012 - April 2016'
+{degree:'Bachelor of Engineering',in:'EEE',university:'Anna University',duration:'June 2012 - April 2016'
 ,courses:['Embedded Systems','Control Systems','Digital Signal Processing','Power Systems','Digital Electronics'],cgpa:'8.03/10.00'}
 ]
 
