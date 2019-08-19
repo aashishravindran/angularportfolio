@@ -42,7 +42,7 @@ app.controller("ExpCtrl", function($scope, $http, $rootScope, $location) {
     {title:'Application Development Analyst',location:'Accenture Solutions Pvt Ltd'
     ,description:['Developed Qlik View/Qlik Sense dashboards for clients in the healthcare domain.',
     'Designed dashboards with complex features like forecasts and Erlang B calculations for staffing',
-    'Spearheaded the initial development of Qlik Sense Mashups : A fusion of web technologies (Html,Css and Javascript) and Qlik Sense visualizations.'], duration:'May 2016 - July 2018'},
+    'Spearheaded the initial development of Qlik Sense Mashups : A fusion of web technologies (Html,Css and Javascript) and Qlik Sense visualizations.'], duration:'May 2016-July 2018'},
     ];
     // TODO: verify passwords are the same and notify user
    

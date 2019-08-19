@@ -3,8 +3,8 @@
 	<div class="card-body">	
 	<div ng-repeat="proj in project">
 	<div class="card-title">
-	<h5><a ng-href="{{proj.gitrepo}}">{{proj.title}} </a>
-			</h5>
+	<h6 class="heading"><a ng-href="{{proj.gitrepo}}">{{proj.title}} </a>
+			</h6>
 		 <span class="badge badge-primary skill" ng-repeat="tool in proj.tools">{{tool}}</span>
 		</div>
 		<ul class="list-group" ng-repeat="des in proj.description">
