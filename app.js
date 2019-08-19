@@ -13,7 +13,7 @@ app.get('/',function(req,res){
 
 
 
-app.listen(4200,process.env.IP,function () {
+app.listen(4200,function () {
         console.log("Started")
 })
 
