@@ -1,0 +1,31 @@
+
+<div class="card" ng-controller="ProjCtrl">
+	<div class="card-body">	
+	<div ng-repeat="proj in project">
+	<div class="card-title">
+	<h5><a ng-href="{{proj.gitrepo}}">{{proj.title}} </a>
+			</h5>
+		 <span class="badge badge-primary skill" ng-repeat="tool in proj.tools">{{tool}}</span>
+		</div>
+		<ul class="list-group" ng-repeat="des in proj.description">
+  			<li class="list-group-item">{{des}}</li>
+ 		</ul>	
+ 		</div>
+</div>
+</div>
+
+
+
+<!-- <div ng-controller="ProjCtrl">
+<h1>Loaded Projectsr</h1>
+<div ng-repeat="proj in project">
+	<p>{{proj.titile}}</p>
+	<span ng-repeat="tool in proj.tool">{{tool}}</span>
+	<div>{{proj.gitrepo}}</div>
+		<div ng-repeat="des in proj.description">{{des}}</div>
+</div>
+	
+
+
+</div>
+ -->

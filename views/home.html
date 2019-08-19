@@ -1,0 +1,27 @@
+<div class="card text-center ">
+  <div class="card-body">
+
+    <p class="card-text">Seeking Full time opportunities in software Development</p>
+    <span><i class="fab fa-github fa-fw  w3-large"></i><a href="https://github.com/aashishravindran" class="card-link">github</a></span>
+             <span><i class="fas fa-file-pdf fa-fw  w3-large"></i><a href="https://github.com/aashishravindran" class="card-link">Resume</a></span>
+              <span><i class="fab fa-linkedin-in fa-fw  w3-large"></i><a href="https://github.com/aashishravindran" class="card-link">Linkedin</a></span>
+              <span><i class="fas fa-globe fa-fw  w3-large"></i><a href="https://github.com/aashishravindran" class="card-link">Linkedin</a></span>
+  </div>
+  <div class="card-footer text-muted">
+    Last updated  : Aug-18-2019
+  </div>
+</div>
+
+
+<div class="card" style="margin-top: 1rem;" ng-controller="EducationCtrl">
+  <div class="card-body">
+    <div class="mb-2"ng-repeat="education in education">
+    <h5 class="card-title">{{education.degree}} <span class="text-primary float-right">{{education.duration}}</span></h5> 
+    <h6 class="card-subtitle mb-2 text-muted">{{education.in+' | '+education.cgpa}}</h6>
+    <span class="card-text badge badge-primary skill" ng-repeat="course in education.courses track by $index">{{course}}</span>
+
+   
+  </div>
+</div>  
+</div>
+<!-- //education.courses[course.length-1] -->
